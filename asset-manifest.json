@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/developerstevenmarin.github.io/bicirio/static/css/main.974bd29e.css",
-    "main.js": "/developerstevenmarin.github.io/bicirio/static/js/main.c99b8f3c.js",
-    "index.html": "/developerstevenmarin.github.io/bicirio/index.html",
-    "main.974bd29e.css.map": "/developerstevenmarin.github.io/bicirio/static/css/main.974bd29e.css.map",
-    "main.c99b8f3c.js.map": "/developerstevenmarin.github.io/bicirio/static/js/main.c99b8f3c.js.map"
+    "main.css": "/developerstevenmarin.github.io/bicirio-web/static/css/main.974bd29e.css",
+    "main.js": "/developerstevenmarin.github.io/bicirio-web/static/js/main.c99b8f3c.js",
+    "index.html": "/developerstevenmarin.github.io/bicirio-web/index.html",
+    "main.974bd29e.css.map": "/developerstevenmarin.github.io/bicirio-web/static/css/main.974bd29e.css.map",
+    "main.c99b8f3c.js.map": "/developerstevenmarin.github.io/bicirio-web/static/js/main.c99b8f3c.js.map"
   },
   "entrypoints": [
     "static/css/main.974bd29e.css",
