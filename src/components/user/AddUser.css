@@ -1,0 +1,137 @@
+
+  
+  .form--add-user {
+    background-color: rgba(21, 23, 43, 0.5);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .form_title--add-user {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+  .form_subtitle--add-user {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .form_input-container--add-user {
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  
+  
+  .form_input--add-user {
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+  }
+  
+  .form_cut {
+    background-color: rgba(21, 23, 43, 0.1);
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 76px;
+  }
+  
+  .form_cut-short {
+    width: 50px;
+  }
+  
+  .form_input--add-user:focus ~ .cut,
+  .form_input--add-user:not(:placeholder-shown) ~ .form_cut {
+    transform: translateY(8px);
+  }
+  
+  .form_placeholder--add-user {
+    color: #65657b;
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 14px;
+  }
+  
+  .form_input--add-user:focus ~ .form_placeholder--add-user,
+  .form_input--add-user:not(:placeholder-shown) ~ .form_placeholder--add-user {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+  }
+  
+  .form_input--add-user:not(:placeholder-shown) ~ .form_placeholder--add-user {
+    color: #808097;
+  }
+  
+  .form_input--add-user:focus ~ .form_placeholder--add-user {
+    color: #dc2f55;
+  }
+  
+  .btn_form-submit--user {
+    background-color: rgb(195, 60, 101);
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    outline: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .btn_form-submit--user:active {
+    background-color: rgb(60, 45, 131)
+  }
+  
+  .btn--back{
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .btn--back img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon--update{
+    pointer-events: none;
+  }
